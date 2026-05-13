@@ -172,7 +172,7 @@ function MobileLayout({
         </h1>
         <p className="mt-3 text-[14px] leading-[1.5] text-[hsl(var(--muted-foreground))]">
           {isSignup
-            ? 'Brook will introduce themselves first. Then you talk.'
+            ? 'Make your account. Brook will take it from there.'
             : 'Five minutes of voice. A plan you can actually follow.'}
         </p>
       </div>
@@ -186,7 +186,7 @@ function MobileLayout({
             </div>
             <div className="text-[15px] font-bold text-[hsl(var(--foreground))]">Brook</div>
             <div className="mt-0.5 text-[11.5px] text-[hsl(var(--muted-foreground))]">
-              Calm. Listens. Not a doctor.
+              Calm. Listens.
             </div>
           </div>
         </div>
@@ -315,14 +315,7 @@ function MobileLayout({
           </Button>
 
           <div className="mt-auto pt-5 text-center text-[11.5px] leading-[1.5] text-[hsl(var(--muted-foreground))]">
-            By continuing you agree to the{' '}
-            <a
-              href="#"
-              className="text-[hsl(var(--foreground))] underline-offset-2 hover:underline"
-            >
-              Terms
-            </a>{' '}
-            and acknowledge that limber isn&apos;t a medical device.
+            By continuing you acknowledge that limber isn&apos;t a medical device.
           </div>
         </form>
       </Form>
@@ -418,8 +411,8 @@ function DesktopLayout({
                 className="mt-2 font-serif text-[15px] italic leading-[1.45]"
                 style={{ color: 'hsl(var(--primary-soft-fg))' }}
               >
-                &ldquo;I&apos;m calm and quiet. I&apos;ll ask what hurts, then a few follow-ups.
-                I&apos;m not a doctor — and I&apos;ll tell you when you need one.&rdquo;
+                &ldquo;I&apos;m calm and quiet. I&apos;ll ask what hurts, then a few follow-ups
+                — and point you somewhere useful.&rdquo;
               </p>
             </div>
           </div>
@@ -450,7 +443,7 @@ function DesktopLayout({
           </h2>
           <p className="mb-7 text-[14px] leading-[1.5] text-[hsl(var(--muted-foreground))]">
             {isSignup
-              ? "We'll set up Brook with a default voice. You can change it later."
+              ? 'Make your account. Brook will take it from there.'
               : 'Pick up where you left off. Brook will remember the last topic.'}
           </p>
 
@@ -554,21 +547,7 @@ function DesktopLayout({
           </Form>
 
           <p className="mt-7 text-[11.5px] leading-[1.5] text-[hsl(var(--muted-foreground))]">
-            By continuing you agree to the{' '}
-            <a
-              href="#"
-              className="text-[hsl(var(--foreground))] underline-offset-2 hover:underline"
-            >
-              Terms
-            </a>{' '}
-            and the{' '}
-            <a
-              href="#"
-              className="text-[hsl(var(--foreground))] underline-offset-2 hover:underline"
-            >
-              Privacy Notice
-            </a>
-            .
+            By continuing you acknowledge that limber isn&apos;t a medical device.
           </p>
         </div>
       </div>

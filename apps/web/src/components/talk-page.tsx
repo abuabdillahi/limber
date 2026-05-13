@@ -379,14 +379,9 @@ function MeetBrookCard() {
           className="mt-5 border-l-2 pl-4 font-serif text-[20px] italic leading-[1.4] text-[hsl(var(--foreground))]"
           style={{ borderColor: 'hsl(var(--primary))' }}
         >
-          &ldquo;I&apos;m calm and quiet. I&apos;ll ask what hurts, then a few follow-ups. I&apos;m
-          not a doctor — and I&apos;ll tell you when you need one.&rdquo;
+          &ldquo;I&apos;m calm and quiet. I&apos;ll ask what hurts, then a few follow-ups —
+          and point you somewhere useful.&rdquo;
         </blockquote>
-
-        <p className="mt-5 text-[12.5px] leading-[1.55] text-[hsl(var(--muted-foreground))]">
-          Brook&apos;s voice is a fixed teal across every limber screen, so you always know
-          who&apos;s listening. limber is the chrome — Brook is the persona inside it.
-        </p>
 
         <div className="mt-6">
           <div className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[hsl(var(--muted-foreground))]">
